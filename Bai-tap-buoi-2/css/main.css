@@ -1,14 +1,13 @@
 img {
-  width: 200px;
-  height: 200px;
+  max-width: 300px;
   border-radius: 10px;
   border-color: rgb(161, 159, 159);
-  border-style: dashed;
+  /* border-style: dashed; */
   
 }
 a {
   text-decoration: none;
-  color: royalblue;
+  color: rgb(240, 86, 25);
   cursor: pointer;
 }
 a:hover {
@@ -16,19 +15,53 @@ a:hover {
   transform: scale(-1);
 }
 .menu {
-  /* display: block; */
+  
   padding-bottom: 20px;
   font-size: 2rem;
   text-transform: capitalize;
-  text-align: center;
+  text-align: left;
+  
 }
-img:hover {
-  color: skyblue;
-}
-.gallery{
-    text-align: center;
-    
-}
+
 *{
     box-sizing: border-box;
+}
+.menu a{
+  color:rgb(212, 125, 11);
+}
+.menu a:hover{
+  color: burlywood;
+}
+.gallery{
+  margin: 5px;
+  /* border: 1px solid rgb(240, 170, 89); */
+  float: left;
+  width: 250px;
+  height: 250px;
+  /* padding: 30px; */
+  
+  
+}
+.box{
+  width: 1000px;
+  
+}
+.container{
+  text-align: justify;
+}
+a > img{
+
+width: 70%;
+height: 70%;
+margin-left: 36px;
+
+
+}
+img:hover{
+  border: 2px solid sandybrown;
+
+}
+.tensanpham{
+  padding:2px 2px;
+  text-align: center;
 }
