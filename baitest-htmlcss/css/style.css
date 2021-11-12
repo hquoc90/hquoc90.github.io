@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  /* box-sizing: border-box; */
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  width: 1200px;
+  background-color: #ecf0f1;
+  line-height: 50px;
+}
+.header > a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: #2980b9;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 2px 3px Indigo;
+}
+a:hover {
+  color: orange;
+}
+.content img {
+  height: 100%;
+  width: 100%;
+  transition: 2s;
+}
+.content {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.content .grid-chim {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 2px solid white;
+}
+.grid-chim > .chu-thich-img {
+  position: absolute;
+  color: #d35400;
+  font-size: 25px;
+  background-color: rgba(223, 249, 251, 1);
+}
+.grid-chim:hover {
+  border: 2px solid #d35400;
+  box-sizing: content-box;
+}
+.grid-chim:hover img {
+  transform: scale(1.5);
+}
+.chu-thich-img:hover
+{
+    color:#1abc9c
+}
+h1 {
+  padding-top: 20px;
+  color: #3498db;
+}
+h2 {
+  color: #1abc9c;
+  /* text-indent: 5px; */
+}
+.container {
+  text-align: justify;
+  padding: 60px 15px;
+  line-height: 1.5;
+}
+p,
+h2,
+h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.container img {
+  max-width: 700px;
+  border: 2px solid white;
+  transition: 0.5s;
+  box-shadow: 0 2px 3px #ccc;
+}
+.container img:hover {
+  border: 2px solid #d35400;
+  opacity: 0.8;
+}
